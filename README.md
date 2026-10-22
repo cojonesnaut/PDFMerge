@@ -6,7 +6,7 @@ A small native macOS app for merging PDFs and images into one PDF. Built with Sw
 
 ## Install
 
-Download `PDF Merge 1.0.dmg` from [Releases](../../releases), open it, and drag **PDF Merge** to **Applications**.
+Download the DMG from [Releases](../../releases), open it, and drag **PDF Merge** to **Applications**.
 
 The app isn't signed with an Apple Developer ID, so macOS blocks the first launch. Go to **System Settings → Privacy & Security** and click **Open Anyway**. After that it opens normally.
 
