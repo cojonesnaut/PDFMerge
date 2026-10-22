@@ -8,7 +8,13 @@ A small native macOS app for merging PDFs and images into one PDF. Built with Sw
 
 Download the DMG from [Releases](../../releases), open it, and drag **PDF Merge** to **Applications**.
 
-The app isn't signed with an Apple Developer ID, so macOS blocks the first launch. Go to **System Settings → Privacy & Security** and click **Open Anyway**. After that it opens normally.
+The app isn't signed with an Apple Developer ID or notarized, so macOS blocks the first launch. To allow it, remove the quarantine flag macOS puts on downloaded apps by running this in Terminal:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/PDF Merge.app"
+```
+
+Or open it once, then go to **System Settings → Privacy & Security** and click **Open Anyway**. After that it opens normally.
 
 ## Features
 
